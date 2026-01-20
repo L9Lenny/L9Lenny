@@ -60,14 +60,15 @@
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=L9Lenny&layout=compact&theme=react" />
 
-  <img src="https://streak-stats.demolab.com?user=L9Lenny&locale=en&mode=daily&theme=react&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=L9Lenny&layout=compact&theme=react" />
+  <br/>
 </div>
 
-
 <br/><br/>
+
 
 <hr/>
 
