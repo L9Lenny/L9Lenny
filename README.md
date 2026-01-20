@@ -17,6 +17,9 @@
  
  🌱  I’m currently learning **everything** 🤓
 
+🔒 **The most interesting projects are private**
+
+
  📫 You can reach me here : 
  
 <div align="center">
