@@ -94,8 +94,6 @@
       <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react&show=contribs,prs,issues" /></td>
     </tr>
   </table>
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L9Lenny&theme=react" />
 </div>
 
 <br/><br/>
