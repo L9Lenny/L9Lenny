@@ -59,7 +59,7 @@
 
 ### 💾 Databases
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=mysql,redis" />
+    <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite" />
 </div>
 
 ### 🖥️ Operating Systems
