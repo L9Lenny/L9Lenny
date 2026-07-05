@@ -29,12 +29,27 @@
   <a href="https://www.instagram.com/lenny.ts_" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
   </a>
-</div>
+  </div>
 
 
+ ```python
+def lenny():
+    """A passionate software developer from Italy 🍝"""
+    languages = ["Python", "Go", "TypeScript", "Java", "C"]
+    vibes = ["coding", "learning", "getting high 💨"]
+    projects = ["a lot of things"]
 
+    for vibe in vibes:
+        while bug_found:
+            refactor(create_feature_not_bug())
+        if motivation_low:
+            roll_joint()
+            get_back_to_work()
+        code(random.choice(projects))
+        learn(random.choice(languages))
+ ```
 
- </div>
+  </div>
 
 
  <hr/>
