@@ -73,7 +73,24 @@ flowchart LR
 ```
 
 <hr/>
-  
+
+<h3 align="center">📦 Deploy Journal</h3>
+
+<br/>
+
+| Version | Notes |
+|:---|---:|
+| **v2.4.2** | `fixed typo that broke prod (dimenticato una virgola)` |
+| **v2.4.1** | `hotifx: it works on my machine™` |
+| **v2.4.0** | `added a lot of things™` |
+| **v2.3.0** | `rewrote everything in Go, reverted, rewrote again` |
+| **v2.2.1** | `refactor(create_feature_not_bug)` |
+| **v2.0.0** | `first working version (mamma l'ho fatto 🍝)` |
+| **v1.0.0** | `✨` |
+| **v0.0.1** | `created project, got high, forgot about it` |
+
+<hr/>
+
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 
