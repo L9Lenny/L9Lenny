@@ -1,0 +1,88 @@
+name: Update Deploy Journal
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-journal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate deploy journal
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, os
+
+          GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+          headers = {"Accept": "application/vnd.github.v3+json"}
+          if GITHUB_TOKEN:
+              headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+          req = urllib.request.Request(
+              "https://api.github.com/users/L9Lenny/repos?per_page=100&sort=pushed",
+              headers=headers
+          )
+          repos = json.loads(urllib.request.urlopen(req).read())
+
+          rows = []
+          for repo in repos:
+              name = repo["full_name"]
+              rel_req = urllib.request.Request(
+                  f"https://api.github.com/repos/{name}/releases?per_page=1",
+                  headers=headers
+              )
+              try:
+                  releases = json.loads(urllib.request.urlopen(rel_req).read())
+              except Exception:
+                  releases = []
+              if isinstance(releases, list) and len(releases) > 0:
+                  r = releases[0]
+                  tag = r["tag_name"]
+                  date = r["published_at"][:10]
+                  notes = (r["name"] or r["tag_name"]).replace("`", "'")
+                  rows.append((date, tag, notes, repo["name"], r["html_url"]))
+
+          rows.sort(key=lambda x: x[0], reverse=True)
+
+          lines = [
+              "| Project | Version | Date | Notes |",
+              "|:---|---:|---:|:---|",
+          ]
+          for date, tag, notes, proj, url in rows[:12]:
+              lines.append(f"| [{proj}]({url}) | {tag} | {date} | `{notes}` |")
+
+          journal = "\n".join(lines)
+
+          with open("README.md") as f:
+              readme = f.read()
+
+          start = "<!-- DEPLOY_JOURNAL_START -->"
+          end = "<!-- DEPLOY_JOURNAL_END -->"
+
+          if start in readme and end in readme:
+              before = readme.split(start)[0]
+              after = readme.split(end)[1]
+              new_readme = before + start + "\n\n" + journal + "\n\n" + end + after
+              with open("README.md", "w") as f:
+                  f.write(new_readme)
+              print("Journal updated")
+          else:
+              print("Markers not found — adding journal section")
+              new_section = f"\n{start}\n\n{journal}\n\n{end}\n"
+              with open("README.md", "a") as f:
+                  f.write(new_section)
+              print("Journal appended")
+          PYEOF
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "update deploy journal [skip ci]"
+          git push
