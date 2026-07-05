@@ -31,8 +31,12 @@
   </a>
   </div>
 
+  </div>
 
- ```python
+
+<hr/>
+
+```python
 def lenny():
     """A passionate software developer from Italy 🍝"""
     languages = ["Python", "Go", "TypeScript", "Java", "C"]
@@ -47,12 +51,9 @@ def lenny():
             get_back_to_work()
         code(random.choice(projects))
         learn(random.choice(languages))
- ```
+```
 
-  </div>
-
-
- <hr/>
+<hr/>
   
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
