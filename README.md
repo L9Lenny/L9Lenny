@@ -57,13 +57,15 @@ def lenny():
 
 <br/>
 
+<hr/>
+
 <h3 align="center">🔄 DevLife Pipeline</h3>
 
 ```mermaid
 flowchart LR
     A[💡 Idea] --> B[💻 Code]
     B --> C{🐛 Bug?}
-    C -->|Sì| D[😡 Panic]
+    C -->|Yes| D[😡 Panic]
     D --> B
     C -->|No| E[🚀 Deploy]
     E --> F[💨 Relax]
@@ -130,20 +132,6 @@ flowchart LR
 </div>
 
 <br/><br/>
-<hr/>
-
-<h3 align="center">📊 System Status</h3>
-
-<br/>
-
-| Component | Status |
-|:---|---:|
-| Code | 🟢 Operational |
-| Caffeine | 🔴 Major Outage (switched to 💨) |
-| Sleep Schedule | 🔴 Down for maintenance |
-| Brain Cells | 🟡 Degraded performance |
-| Motivation | 🟢 With assistance (💨) |
-
 <hr/>
 
 <br/>
