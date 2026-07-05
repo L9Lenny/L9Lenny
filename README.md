@@ -88,8 +88,8 @@
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=L9Lenny&layout=compact&theme=react" />
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=L9Lenny&theme=react" />
-  <br/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react&show=contribs,prs,issues" />
+  <br/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L9Lenny&theme=react" />
 </div>
 
