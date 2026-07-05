@@ -90,19 +90,15 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=L9Lenny&theme=react" />
   <br/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react&show=contribs,prs,issues" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L9Lenny&theme=react&card.width=500&card.height=200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=L9Lenny&theme=react" />
   <br/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=L9Lenny&theme=react&layout=donut" />
 </div>
 
 <br/><br/>
-
-
 <hr/>
 
 <br/>
-
 <div align="center">
 <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
