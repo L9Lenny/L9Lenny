@@ -38,11 +38,33 @@
 
 
  <hr/>
- 
+  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
+
+### 🌐 Languages
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,vscode,github,figma,git,gitlab,pycharm,py,c,java,javascript,mysql,androidstudio,arduino,eclipse,idea,kali,linux,windows,php,django,docker,bash,go,svelte,fastapi,nodejs,npm,pnpm,redis,stackoverflow,tailwind,ts,ubuntu" /><br>
+    <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts" />
+</div>
+
+### ⚙️ Frameworks & Libraries
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=django,svelte,fastapi,nodejs,tailwind" />
+</div>
+
+### 🛠️ Tools & IDEs
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm,redis,stackoverflow" />
+</div>
+
+### 💾 Databases
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=mysql,redis" />
+</div>
+
+### 🖥️ Operating Systems
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=kali,linux,windows,ubuntu" />
 </div>
 
 <br/>
