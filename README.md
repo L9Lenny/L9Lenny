@@ -82,11 +82,9 @@ flowchart LR
 
 | Project | Version | Date | Notes |
 |:---|---:|---:|:---|
-_(nessuna release pubblicata recentemente)_
+_(no recent releases yet)_
 
 <!-- DEPLOY_JOURNAL_END -->
-
-<sub align="center">🔄 Aggiornato automaticamente ogni giorno via GitHub Actions</sub>
 
 <hr/>
 
