@@ -29,6 +29,8 @@ jobs:
 
           rows = []
           for repo in repos:
+              if repo.get("fork"):
+                  continue
               name = repo["full_name"]
               rel_req = urllib.request.Request(
                   f"https://api.github.com/repos/{name}/releases?per_page=1",
