@@ -36,6 +36,8 @@
 
 <hr/>
 
+<h3 align="center">🍀 If I were a function...</h3>
+
 ```python
 def lenny():
     """A passionate software developer from Italy 🍝"""
