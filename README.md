@@ -82,7 +82,7 @@ flowchart LR
 
 | Project | Version | Date | Notes |
 |:---|---:|---:|:---|
-| [league_profile_tool](https://github.com/L9Lenny/league_profile_tool/releases/tag/v1.9.7) | v1.9.7 | 2026-07-05 | `v1.9.7` |
+| [league_profile_tool](https://github.com/L9Lenny/league_profile_tool/releases/tag/v1.9.8) | v1.9.8 | 2026-07-05 | `League Profile Tool v1.9.8` |
 | [Spotify-Playlist-Reader](https://github.com/L9Lenny/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
 
 <!-- DEPLOY_JOURNAL_END -->
