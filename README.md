@@ -2,6 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
 </div>
 
+
 <div align="center">
   <svg viewBox="0 0 480 90" width="480" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="I'm Lenny">
     <defs>
